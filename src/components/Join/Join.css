@@ -1,0 +1,124 @@
+.join-container{
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    padding: 4rem 4rem;
+    gap: 10rem;
+    color: white;
+}
+
+.left-join{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+
+.left-join>hr{
+    position: absolute;
+    width: 10rem;
+    border: 2px solid orange;
+    border-radius: 20%;
+    bottom: 9rem;
+}
+
+.right-join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.email-container{
+    display: flex;
+    gap: 3rem;
+    background-color: rgb(110, 110, 110);
+    padding: 1.5rem;
+}
+.email-container>input{
+    background-color: transparent;
+    padding: 0.35rem;
+    border: none;
+    outline: none;
+    color: black;
+
+}
+
+::placeholder{
+    color: rgb(185, 185, 185);
+}
+
+.Join-btn{
+    padding: 0.25rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #f48915;
+    color: white;
+}
+.Join-btn:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    .left-join{
+        font-size: 2rem;
+        
+    }
+    .left-join>hr{
+        bottom: 18rem;
+    }
+    .email-container{
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .Join-btn{
+        padding: 0.10rem;
+        width: 5rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .join-container{
+        padding: 4rem 1rem;
+        gap: 2rem;
+    }
+    
+    .left-join{
+        font-size: 2rem;
+        
+    }
+    .left-join>hr{
+        bottom: 9rem;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .join-container{
+        margin-top: -15rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .left-join>hr{
+        width: 20rem;
+        bottom: 7rem;
+    }
+}
+
+
+
+
+
+

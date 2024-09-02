@@ -1,0 +1,161 @@
+.OurPlans{
+    
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+    
+}
+
+.plansblur-1{
+    width: 10rem;
+    height: 23rem;
+    left: 0rem;
+    margin-top: 5rem;
+    z-index: 1;
+}
+
+.plansblur-2{
+    width: 10rem;
+    height: 23rem;
+    right: 0rem;
+    margin-top: 5rem;
+    z-index: 1;
+}
+
+.plansheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    gap: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.plans{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    z-index: 2;
+    margin-bottom: 4rem;
+
+    
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 15rem;
+}
+
+.plan:nth-child(2){
+    background: linear-gradient(to left, #f55d38, #fd9b51);
+    transform: scale(1.1);
+}
+
+.plan>image{
+    fill: orange;
+    width: 5rem;
+    height: 2rem;
+}
+
+.plan>:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.plan>:nth-child(3){
+    font-size: 3rem;
+    font-weight: bold;
+}
+.plan>:nth-child(5){
+    font-size: 1rem;
+    font-weight: normal;
+}
+.rightArrow{
+    font-size: 1rem;
+}
+.plansbutton{
+    height: 2rem;
+    border: none;
+    font-weight: bold;
+}
+
+.feature{
+    display: flex;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+.feature>img{
+    width: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    .plansheader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-size: 2rem;
+    }
+    .plans{
+        flex-direction: column;
+    align-items: center;
+
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .plansheader{
+        gap: 0.2rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: -3rem;
+    }
+.plans{
+    align-items: center;
+    gap: 3rem;
+}
+
+.plan{
+    border-radius: 1rem;
+}
+
+.plan{
+
+    padding: 1rem;
+    width: 15rem;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
